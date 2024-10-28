@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Challenge: Great big font sizes</title>
-        <style>
-            .big {
-                
-            }
-            
-            .bigger { 
-                
-            }
-        </style>
-    </head>
-    <body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Challenge: Great big font sizes</title>
+    <style>
+      @font-face {
+        font-family: star;
+        src: url(https://cdn.glitch.global/04c58251-fb0d-4211-9f2e-511f1a75cb3d/Starborn.ttf?v=1730124253445);
+      }
+      @font-face {
+        font-family: cherry;
+        src: url(https://cdn.glitch.global/04c58251-fb0d-4211-9f2e-511f1a75cb3d/CHERL___.TTF?v=1730124449810);
+      }
+         body {
+        font-family: star;
+      }
+      .big {
+        font-size: 1.3em; color: #fc95ce;
+      }
+      .bigger {
+        font-size: 1.8em; color: #f25aae
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Great <em class="bigger">Big</em> Words</h1>
+    <h2>by Michael Mark & Tom Chapin</h2>
 
-<h1>Great Big Words</h1>
-<h2>by Michael Mark & Tom Chapin</h2>
-
-<p>When I was a little kid,
-a "<em class="big">diminutive juvenile</em>," <br>
-I liked my folks to read to me,
-I was an <em class="big">"eager bibliophile."</em> <br>
-Now I love words for how they sound <br>
-And how they <em class="big">"communicate."</em> <br>
-Perhaps I should explain myself,
-that is, <em class="big">"elucidate."</em> <br>
-Great big words, I like <em class="big">big</em> words. <br>
-Letter by letter, the <em class="bigger">bigger</em> the better <br>
-Great big words. La la la la la la la la la la!</p>
-
-    </body>
+    <p>
+      When I was a little kid, a "<em class="big">diminutive juvenile</em>,"
+      <br />
+      I liked my folks to read to me, I was an
+      <em class="big">"eager bibliophile."</em> <br />
+      Now I love words for how they sound <br />
+      And how they <em class="big">"communicate."</em> <br />
+      Perhaps I should explain myself, that is,
+      <em class="big">"elucidate."</em> <br />
+      Great big words, I like <em class="big">big</em> words. <br />
+      Letter by letter, the <em class="bigger">bigger</em> the better <br />
+      Great big words. La la la la la la la la la la!
+    </p>
+  </body>
 </html>
